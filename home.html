@@ -9,20 +9,41 @@
       body {
         margin-top: 35px;
         margin-bottom: 55px;
-        margin-left: 0;
+        margin-left: 30;
+        padding: 20px;
         background-color: palevioletred;
       }
       div {
+        border: 3px solid snow;
         margin-left: 30px;
+        padding: 20px;
         display: block;
         height: 150px;
         width: 150px;
         background-color: lightgrey;
       }
+      #first {
+        background-color: wheat;
+      }
+      #second {
+        background-color: cornflowerblue;
+      }
+      #third {
+        background-color: lightseagreen;
+      }
+      #fourth {
+        background-color: steelblue;
+      }
     </style>
   </head>
   <body>
-    <div></div>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <div id="fourth"></div>
+        </div>
+      </div>
+    </div>
     <div></div>
     <div></div>
   </body>
