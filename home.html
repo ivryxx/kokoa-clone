@@ -3,22 +3,25 @@
   <head>
     <title>The Ivry Times</title>
     <style>
-      a {
-        background-color: violet;
-        color: rgb(250, 235, 21);
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: background-color 10s ease-in-out, color 5s ease-in-out;
+      body {
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
-      a:hover {
-        color: darkslateblue;
-        background-color: gold;
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+      }
+      #second {
+        background-color: cadetblue;
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <div></div>
+    <div id="second"></div>
+    <div></div>
   </body>
 </html>
