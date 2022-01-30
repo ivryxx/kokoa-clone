@@ -8,25 +8,25 @@
         margin: 50px;
       }
       span {
-        background-color: lightpink;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
       }
-      span:nth-child(2n + 1) {
-        background-color: lightgreen;
+      p span {
+        color: white;
+      }
+      p + span {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi e
+        sequi ipsam odio dolorem. <span>inside</span>
+      </p>
+      <span>hello</span>
+    </div>
   </body>
 </html>
